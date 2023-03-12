@@ -16,6 +16,6 @@ app.use("/Demonslayer/v1", movieRoute);
 app.use("/Demonslayer/v1", mugenRoute);
 app.use("/Demonslayer/v1", districRoute);
 
-app.listen(3000, () => {
-  console.log(`Node API app is running on port 3000`);
+app.listen(4001, () => {
+  console.log(`Node API app is running on port 4001`);
 });
